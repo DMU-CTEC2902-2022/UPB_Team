@@ -1,0 +1,10 @@
+﻿@model Assignment2.Models.Course
+
+@{
+    ViewBag.Title = "Details";
+}
+<div> @Html.ActionLink("Index", "Index") </div>
+<h2>Details</h2>
+<h3> @Model.CourseId </h3>
+<p> @Model.CourseName</p>
+<p> @Model.CourseDescription </p>
