@@ -1,0 +1,19 @@
+﻿@model List<Assignment2.Models.Course>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Courses: </h2>>
+<ul>
+
+    @foreach (var course in @Model)
+
+    {
+
+<li>@course.CourseName</li>
+                
+
+    }
+
+</ul>
